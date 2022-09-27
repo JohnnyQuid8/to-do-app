@@ -1,0 +1,26 @@
+body {
+  background-color: rgba(31, 4, 18, 0.8); }
+
+.input {
+  margin: auto;
+  width: 30%;
+  padding: 5px;
+  position: absolute;
+  top: 15%;
+  left: 30%;
+  border-radius: 10px; }
+
+.list {
+  margin: auto;
+  position: absolute;
+  top: 25%;
+  left: 31%; }
+
+.button {
+  margin: auto;
+  position: absolute;
+  width: 50px;
+  height: 30px;
+  top: 16%;
+  left: 65%;
+  border-radius: 10px; }
