@@ -8,19 +8,23 @@
     <title>Document</title>
   </head>
   <body>
-    <section>
-      <label>
-        <input type="text" class="input" />
-      </label>
-      <button class="button">Button</button>
-      <ul class="list">
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
+    <div class="todo">
+      <div class="todo__wrap">
+        <form>
+          <input
+            type="text"
+            class="todo__wrap--input"
+            placeholder="Add your todos"
+          />
+          <button class="todo__wrap--button">Add task</button>
+        </form>
+      </div>
+
+      <ul class="todo__list">
+        <li class="todo__list--item">List item</li>
+        <button class="todo__list--button">Remove</button>
       </ul>
-    </section>
+    </div>
     <script src="script.js"></script>
   </body>
 </html>
