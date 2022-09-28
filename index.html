@@ -8,19 +8,23 @@
     <title>Document</title>
   </head>
   <body>
-    <section>
-      <label>
-        <input type="text" class="input" />
-      </label>
-      <button class="button">Button</button>
-      <ul class="list">
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-      </ul>
-    </section>
+    <div class="todo">
+      <div class="todo__wrapper">
+        <form id="form">
+          <input
+            id="input"
+            type="text"
+            class="todo__wrapper--input"
+            placeholder="Type your obligation"
+          />
+          <button class="todo__wrapper--button">Submit</button>
+        </form>
+      </div>
+      <div class="todo__list">
+        <!-- <li class="todo__list--item"></li> -->
+        <!-- <button class="todo__list--button">Remove</button> -->
+      </div>
+    </div>
     <script src="script.js"></script>
   </body>
 </html>
